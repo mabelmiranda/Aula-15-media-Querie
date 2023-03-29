@@ -1,5 +1,5 @@
 body {
-    background-color: #1F2023;
+    background-color: #ffffff;
 }
 
 .containerMedia {
@@ -12,7 +12,7 @@ body {
 
     grid-template-areas: 1fr 1fr 1fr;
     grid-template-rows: 200px 335px 200px;
-    gap: 1rem;
+    gap:0rem;
 
     height: 100vh;
     margin: 0;
@@ -20,12 +20,12 @@ body {
 
 .box1 {
     grid-area: box1;
-    background-color: red;
+    background-color: rgb(138, 116, 116);
 }
 
 .box2 {
     grid-area: box2;
-    background-color: violet;
+    background-color: rgb(2, 32, 8);
 }
 
 .box3 {
